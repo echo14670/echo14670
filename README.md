@@ -1,16 +1,36 @@
-## Hi there 👋
+<h1 align="left">Echo</h1>
 
-<!--
-**echo14670/echo14670** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<p align="left">喜欢把想法做成能跑起来的东西</p>
 
-Here are some ideas to get you started:
+## 🌱 关于我
+- 动手实践型学习者，习惯"边学边做"：写过手机 App、刷过单片机、也在跑深度学习实验，踩过的坑都会整理成笔记或博客。
+- 兴趣横跨嵌入式（智能车 / 电机控制）、AI 应用与前端小工具，最近在玩大模型 API 和AI医学影像处理。
+- 喜欢把事情做完整：代码能跑只是第一步，还会补上文档、部署步骤和排坑记录。
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 🛠 技能与技术栈
+- 编程语言：C / C++ / Java / Python
+- Web 与工具：HTML/CSS/JS、Git/GitHub、Linux 基础、VS Code
+- 嵌入式：NXP S32K144（S32 Design Studio）、FreeRTOS、FOC 电机控制、串口 IAP、EasyLogger
+- AI 与数据：PyTorch、MONAI（医学影像分割入门）、Hugging Face Inference API
+- 正在学习：数据库 / 算法 / 软件工程实践 / 深度学习
+
+## 📌 项目与实践经历
+- simpleFOC —— 把 SimpleFOC 移植到 NXP S32K144 的实验：FreeRTOS + FTM 三相 PWM 驱动 BLDC 无刷电机，适配电流采样与编码器接口，配套双 App 分区固件。
+- bootloader —— S32K144 串口 IAP 引导程序：Flash 扇区擦写、双 APP 分区跳转与中断向量重定位，配合串口工具刷写固件，内置看门狗与 EasyLogger 日志。
+- 2D —— 医学影像分割练习：基于 PyTorch + MONAI 的 2D U-Net 训练脚本（脾脏 CT 分割），使用 DiceLoss 评估，固定随机种子保证可复现。
+
+## 📊 自我评估
+- 已掌握：C/C++ 嵌入式基础（外设驱动、FreeRTOS 使用与移植）、Python 编程与深度学习基础（能独立跑通并调参训练脚本）、Web / 小程序前端基础（独立完成过一个完整 App 项目）、Git 与文档写作入门。
+- 感兴趣的技术方向：嵌入式与智能硬件、AI 应用、能解决真实问题的全栈小工具。
+- 最希望学习的知识：软件工程的系统方法（需求分析、设计、测试、团队协作）、数据库与后端开发、更扎实的算法与深度学习原理。
+- 目前欠缺：大型项目的工程化经验、代码规范与自动化测试、后端与数据库能力，以及把"能跑"打磨成"能用、好用"的产品思维。
+
+## 🎯 未来规划
+- 总目标：考研——希望用更高的平台和更充裕的时间，继续提升自己的能力。
+- 第 1 年（大三）：认真完成软件工程等核心课程与专业课，稳住绩点与代码量；大三暑假前完成数学、英语、专业课的第一轮系统复习，同时把个人仓库整理成拿得出手的作品集。
+- 第 2 年（大四）：全力冲刺考研——暑假强化、秋季进入真题与模拟阶段，12 月参加初试；次年 3~4 月准备复试 / 调剂，并在此期间高质量完成毕业设计。
+- 第 3 年（读研第一年）：尽快融入课题组，参与真实项目、持续产出成果；继续用博客和开源沉淀记录。
+
+## 🔗 链接
+- 博客园：https://home.cnblogs.com/u/lin123454321
+- 邮箱：845368593@qq.com
